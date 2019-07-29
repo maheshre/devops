@@ -1,0 +1,38 @@
+<html>
+<head>
+     <title>Shanthini Kethan Vidyalayam</title>
+
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+ul{
+     lst-style-type: none; margin: 0; padding: 10px; overflow: hidden; background-color:green;
+ }
+li{ float: left;}
+li a{ display: block; color: white;text-align: center;padding: 14px 16px;text-decoration: none;}
+.active{ background-color: green;}
+.footer { position: fixed;left: 0;bottom: 0;width: 100%; background-color: black;color: white;text-align: center;}
+</style>
+<body>
+<ul>
+    <li><a class="active" href="/home/">Home</a></li>
+    <li><a href="/contact/">contact</a></li>
+    <li><a href="/course/">subjects</a></li>
+    <li><a href="/about/">about</a></li>
+    <li><a href="/notifications/">notifications</a></li>
+    <li><a href="/registrations/">registrations</a></li>
+    <li><a href="/login/">login</a></li>
+
+</ul>
+{% block content%}
+{% endblock %}
+<footer class="footer">
+    <h1>Thank you for visiting....!</h1>
+</footer>
+</body>
+</html>

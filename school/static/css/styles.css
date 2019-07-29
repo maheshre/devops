@@ -1,0 +1,8 @@
+body{background-color: mediumorchid;}
+.jumbotron{margin: 10px 100px 10px 100px;
+    text-align: center;
+    height:50px;
+    background-color: blue;}
+h1{margin-top: -50px;font-size: 50px;color: white;}
+h4{color: green;}
+img{width: 80%;height: 80%;margin-left: 10px;margin-right: 10px}
